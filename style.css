@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ************************* button *************************** */
+
+
+
+.btn-primary {
+    margin-right: 20px;
+    height: 40px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: #FF900E;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+/*======================== header ==============================*/
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 10px 170px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 25px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+.titel{
+    font-size: 2rem;
+}
+
+.banner{
+    text-align: center;
+
+}
+.banner-contain{
+    width: 613px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.banner-titel{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.banner-description{
+    color: #727272;
+}
+.banner-img{
+    width: 100%;
+}
+
+
+
+/* ******************* responsoive for mobile ********************** */
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+
+    }
+    .banner-contain{
+        width: auto;
+    }
+    ul li{
+       padding: 5px;
+    }
+    ul{
+        padding-left: 0;
+    }
+}
+
+/* *************** responsive for tablet ************************* */
+
+@media screen and (min-width: 578px) and (max-width: 992px){
+    header{
+        padding: 30px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    ul{
+        padding-left: 0;
+    }
+}
