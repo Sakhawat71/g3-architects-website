@@ -140,11 +140,29 @@ main{
     font-weight: 600;
     font-size: 32px;
 }
+/* *******************sponspors-container********************* */
 
+.sponspors-container{
+    text-align: center;
+}
+.sponspors-container-images{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sponspors-container-images > img{
+    width: 100px;
+    height: 35px;
+}
 
-
-
-
+/* ********************************* footer ****************** */
+footer{
+    margin-top: 75px;
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+}
 
 
 
@@ -198,6 +216,16 @@ main{
         margin-top: 25px;
         padding: 10px 20px;
     }
+    /* ********************* */
+    .sponspors-container-images{
+        flex-direction: column;
+    }
+    .sponspors-container-images > img{
+        padding-bottom: 10px;
+        width: 50px;
+        height: 25px;
+    }
+
 
 }
 
@@ -216,5 +244,10 @@ main{
     .teams-container{
         flex-direction: column;
         padding: 10px;
+    }
+    .sponspors-container-images > img{
+        padding-bottom: 10px;
+        width: 50px;
+        height: 25px;
     }
 }
